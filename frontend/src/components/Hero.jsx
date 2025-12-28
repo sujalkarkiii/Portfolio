@@ -39,7 +39,7 @@ const Hero = () => {
         {/* Right */}
         <div className="hidden md:flex md:w-1/2 justify-center">
           <img
-            src="image/20250126_082308_watermarked.jpg"
+            src="/images/20250126_082308_watermarked.jpg"
             alt="Sujal Karki"
             className="w-80 h-80 object-cover rounded-xl shadow-2xl"
           />
