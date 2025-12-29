@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 const Resume = () => {
   return (
@@ -37,6 +38,8 @@ const Resume = () => {
         </div>
       </section>
     </div>
+<Footer/>
+
 </>
   )
 }
