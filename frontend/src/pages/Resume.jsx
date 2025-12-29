@@ -5,7 +5,7 @@ const Resume = () => {
 <>
     <div className="min-h-screen flex items-center justify-center bg-black px-4">
       <section className="max-w-xl w-full p-8 bg-gray-800 rounded-2xl shadow-xl text-center 
-                          transition-all duration-300 transform hover:-translate-y-3 hover:bg-gray-1200">
+                          transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.02] hover:bg-gray-1200">
         <h1 className="text-4xl font-bold text-white mb-2">Sujal Karki</h1>
         <h2 className="text-xl text-gray-300 mb-4">
           Full-Stack Developer & Computer Engineering Student
