@@ -1,5 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import { FaGithub, FaArrowLeft } from 'react-icons/fa6';
 
 const BlogDetail1 = () => {
     return (
@@ -7,12 +7,18 @@ const BlogDetail1 = () => {
             <div className="max-w-4xl mx-auto">
 
                 {/* Back Button */}
+                <div className="pb-4">
+
                 <Link
                     to="/blogs"
-                    className="text-blue-400 hover:text-blue-500 mb-6 inline-block"
-                >
-                    ← Back to Blogs
+                    className="inline-flex items-center gap-2 px-6 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition text-white font-semibold "
+                    
+                    >
+                        <FaArrowLeft className="text-lg" />
+                        
+                    Back to Blogs
                 </Link>
+                    </div>
 
                 {/* Title */}
                 <h1 className="text-4xl md:text-5xl font-bold text-blue-400 mb-6">
@@ -139,9 +145,11 @@ export default defineConfig({
                     {/* Back Button */}
                     <Link
                         to="/blogs"
-                        className="text-blue-400 hover:text-blue-500 mb-6 inline-block"
+                        className="inline-flex items-center gap-2 px-6 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition text-white font-semibold"
                     >
-                        ← Back to Blogs
+                        <FaArrowLeft className="text-lg" />
+
+                         Back to Blogs
                     </Link>
                 </div>
             </div>
