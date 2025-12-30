@@ -38,7 +38,6 @@ const Resume = () => {
         </div>
       </section>
     </div>
-<Footer/>
 
 </>
   )
